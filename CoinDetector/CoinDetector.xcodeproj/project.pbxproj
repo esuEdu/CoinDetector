@@ -91,8 +91,7 @@
 		28F8BB082C0FE41200B29F1E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				28F8BB122C0FE49B00B29F1E /* CameraViewModel.swift */,
-				28F8BB142C0FE4A600B29F1E /* CameraView.swift */,
+				28F8BB162C0FF2F200B29F1E /* Camera */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +103,15 @@
 				28F8BAF72C0FE2AA00B29F1E /* CoinDetectorApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		28F8BB162C0FF2F200B29F1E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				28F8BB122C0FE49B00B29F1E /* CameraViewModel.swift */,
+				28F8BB142C0FE4A600B29F1E /* CameraView.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
