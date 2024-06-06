@@ -11,7 +11,7 @@ import SwiftUI
 struct CoinDetectorApp: App {
     var body: some Scene {
         WindowGroup {
-            CameraView()
+            ContentView()
         }
     }
 }
