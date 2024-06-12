@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2899502D2C11C571001BBB4B /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2899502C2C11C571001BBB4B /* ObjectDetector.mlmodel */; };
-		289950362C11D2A4001BBB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289950342C11D2A4001BBB4B /* ViewController.swift */; };
-		289950372C11D2A4001BBB4B /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289950352C11D2A4001BBB4B /* VisionObjectRecognitionViewController.swift */; };
 		289950392C11D31A001BBB4B /* VisionObjectRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289950382C11D31A001BBB4B /* VisionObjectRecognitionView.swift */; };
 		289950432C11DE33001BBB4B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289950422C11DE33001BBB4B /* DetailView.swift */; };
 		289950452C11DE87001BBB4B /* VisionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289950442C11DE87001BBB4B /* VisionViewModel.swift */; };
 		289950482C11E05A001BBB4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289950472C11E05A001BBB4B /* ContentView.swift */; };
+		28F0CD322C1A0B5800D5C41E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0CD302C1A0B5800D5C41E /* ViewController.swift */; };
+		28F0CD332C1A0B5800D5C41E /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0CD312C1A0B5800D5C41E /* VisionObjectRecognitionViewController.swift */; };
+		28F0CD352C1A0B9E00D5C41E /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 28F0CD342C1A0B9E00D5C41E /* ObjectDetector.mlmodel */; };
 		28F8BAF82C0FE2AA00B29F1E /* CoinDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BAF72C0FE2AA00B29F1E /* CoinDetectorApp.swift */; };
 		28F8BAFC2C0FE2AB00B29F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BAFB2C0FE2AB00B29F1E /* Assets.xcassets */; };
 		28F8BAFF2C0FE2AB00B29F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BAFE2C0FE2AB00B29F1E /* Preview Assets.xcassets */; };
@@ -24,13 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2899502C2C11C571001BBB4B /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ObjectDetector.mlmodel; path = ../../../../../../Downloads/ObjectDetector.mlmodel; sourceTree = "<group>"; };
-		289950342C11D2A4001BBB4B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../../../Downloads/Recognizing Objects Live Capture/BreakfastFinder/ViewController.swift"; sourceTree = "<group>"; };
-		289950352C11D2A4001BBB4B /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisionObjectRecognitionViewController.swift; path = "../../../../../../../Downloads/Recognizing Objects Live Capture/BreakfastFinder/VisionObjectRecognitionViewController.swift"; sourceTree = "<group>"; };
 		289950382C11D31A001BBB4B /* VisionObjectRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionView.swift; sourceTree = "<group>"; };
 		289950422C11DE33001BBB4B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		289950442C11DE87001BBB4B /* VisionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewModel.swift; sourceTree = "<group>"; };
 		289950472C11E05A001BBB4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28F0CD302C1A0B5800D5C41E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28F0CD312C1A0B5800D5C41E /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		28F0CD342C1A0B9E00D5C41E /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
 		28F8BAF42C0FE2AA00B29F1E /* CoinDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8BAF72C0FE2AA00B29F1E /* CoinDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetectorApp.swift; sourceTree = "<group>"; };
 		28F8BAFB2C0FE2AB00B29F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		2899502B2C11C54C001BBB4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2899502C2C11C571001BBB4B /* ObjectDetector.mlmodel */,
+				28F0CD342C1A0B9E00D5C41E /* ObjectDetector.mlmodel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -63,9 +63,9 @@
 		289950312C11D205001BBB4B /* ObjectDetection */ = {
 			isa = PBXGroup;
 			children = (
-				289950342C11D2A4001BBB4B /* ViewController.swift */,
-				289950352C11D2A4001BBB4B /* VisionObjectRecognitionViewController.swift */,
 				289950382C11D31A001BBB4B /* VisionObjectRecognitionView.swift */,
+				28F0CD302C1A0B5800D5C41E /* ViewController.swift */,
+				28F0CD312C1A0B5800D5C41E /* VisionObjectRecognitionViewController.swift */,
 				289950442C11DE87001BBB4B /* VisionViewModel.swift */,
 			);
 			path = ObjectDetection;
@@ -224,17 +224,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F8BB102C0FE45400B29F1E /* AVCaptureDeviceInput+Camera.swift in Sources */,
+				28F0CD352C1A0B9E00D5C41E /* ObjectDetector.mlmodel in Sources */,
 				28F8BB112C0FE45400B29F1E /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
 				289950482C11E05A001BBB4B /* ContentView.swift in Sources */,
 				28F8BAF82C0FE2AA00B29F1E /* CoinDetectorApp.swift in Sources */,
-				2899502D2C11C571001BBB4B /* ObjectDetector.mlmodel in Sources */,
 				289950452C11DE87001BBB4B /* VisionViewModel.swift in Sources */,
-				289950362C11D2A4001BBB4B /* ViewController.swift in Sources */,
 				28F8BB0E2C0FE45400B29F1E /* AVCaptureDevice+FrameRate.swift in Sources */,
+				28F0CD322C1A0B5800D5C41E /* ViewController.swift in Sources */,
 				289950432C11DE33001BBB4B /* DetailView.swift in Sources */,
 				28F8BB0F2C0FE45400B29F1E /* VideoCapture.swift in Sources */,
-				289950372C11D2A4001BBB4B /* VisionObjectRecognitionViewController.swift in Sources */,
 				289950392C11D31A001BBB4B /* VisionObjectRecognitionView.swift in Sources */,
+				28F0CD332C1A0B5800D5C41E /* VisionObjectRecognitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
