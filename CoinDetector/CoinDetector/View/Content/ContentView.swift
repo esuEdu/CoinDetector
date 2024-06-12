@@ -20,7 +20,7 @@ struct ContentView: View {
                 VisionObjectRecognitionView(viewModel: viewModel)
                     .edgesIgnoringSafeArea(.all)
                 
-                NavigationLink(destination: DetectedObjectsView(detectedObjects: viewModel.detectedObjects)) {
+                NavigationLink(destination: DetectedObjectsView(detectedObjects: viewModel.getAllObjects())) {
                     Text("Show Detected Objects")
                         .foregroundColor(.white)
                         .padding()

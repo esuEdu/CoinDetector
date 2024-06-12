@@ -28,6 +28,7 @@ class VisionObjectRecognitionViewController: ViewController {
         guard let modelURL = Bundle.main.url(forResource: "ObjectDetector", withExtension: "mlmodelc") else {
             return NSError(domain: "VisionObjectRecognitionViewController", code: -1, userInfo: [NSLocalizedDescriptionKey: "Model file is missing"])
         }
+        
         do {
             let visionModel = try VNCoreMLModel(for: MLModel(contentsOf: modelURL))
             let objectRecognition = VNCoreMLRequest(model: visionModel, completionHandler: { (request, error) in
@@ -41,6 +42,7 @@ class VisionObjectRecognitionViewController: ViewController {
         } catch let error as NSError {
             print("Model loading went wrong: \(error)")
         }
+        
         return error
     }
 

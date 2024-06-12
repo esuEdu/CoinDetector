@@ -17,10 +17,6 @@
 		28F8BAF82C0FE2AA00B29F1E /* CoinDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BAF72C0FE2AA00B29F1E /* CoinDetectorApp.swift */; };
 		28F8BAFC2C0FE2AB00B29F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BAFB2C0FE2AB00B29F1E /* Assets.xcassets */; };
 		28F8BAFF2C0FE2AB00B29F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8BAFE2C0FE2AB00B29F1E /* Preview Assets.xcassets */; };
-		28F8BB0E2C0FE45400B29F1E /* AVCaptureDevice+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BB0A2C0FE45400B29F1E /* AVCaptureDevice+FrameRate.swift */; };
-		28F8BB0F2C0FE45400B29F1E /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BB0B2C0FE45400B29F1E /* VideoCapture.swift */; };
-		28F8BB102C0FE45400B29F1E /* AVCaptureDeviceInput+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BB0C2C0FE45400B29F1E /* AVCaptureDeviceInput+Camera.swift */; };
-		28F8BB112C0FE45400B29F1E /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8BB0D2C0FE45400B29F1E /* AVCaptureVideoDataOutput+PixelFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +31,6 @@
 		28F8BAF72C0FE2AA00B29F1E /* CoinDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetectorApp.swift; sourceTree = "<group>"; };
 		28F8BAFB2C0FE2AB00B29F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F8BAFE2C0FE2AB00B29F1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		28F8BB0A2C0FE45400B29F1E /* AVCaptureDevice+FrameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+FrameRate.swift"; sourceTree = "<group>"; };
-		28F8BB0B2C0FE45400B29F1E /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
-		28F8BB0C2C0FE45400B29F1E /* AVCaptureDeviceInput+Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDeviceInput+Camera.swift"; sourceTree = "<group>"; };
-		28F8BB0D2C0FE45400B29F1E /* AVCaptureVideoDataOutput+PixelFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoDataOutput+PixelFormat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +100,6 @@
 			children = (
 				2899502B2C11C54C001BBB4B /* Model */,
 				28F8BB082C0FE41200B29F1E /* View */,
-				28F8BB052C0FE32500B29F1E /* Camera */,
 				28F8BB092C0FE41F00B29F1E /* App */,
 				28F8BAFD2C0FE2AB00B29F1E /* Preview Content */,
 			);
@@ -121,17 +112,6 @@
 				28F8BAFE2C0FE2AB00B29F1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		28F8BB052C0FE32500B29F1E /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				28F8BB0A2C0FE45400B29F1E /* AVCaptureDevice+FrameRate.swift */,
-				28F8BB0C2C0FE45400B29F1E /* AVCaptureDeviceInput+Camera.swift */,
-				28F8BB0D2C0FE45400B29F1E /* AVCaptureVideoDataOutput+PixelFormat.swift */,
-				28F8BB0B2C0FE45400B29F1E /* VideoCapture.swift */,
-			);
-			path = Camera;
 			sourceTree = "<group>";
 		};
 		28F8BB082C0FE41200B29F1E /* View */ = {
@@ -223,16 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F8BB102C0FE45400B29F1E /* AVCaptureDeviceInput+Camera.swift in Sources */,
 				28F0CD352C1A0B9E00D5C41E /* ObjectDetector.mlmodel in Sources */,
-				28F8BB112C0FE45400B29F1E /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
 				289950482C11E05A001BBB4B /* ContentView.swift in Sources */,
 				28F8BAF82C0FE2AA00B29F1E /* CoinDetectorApp.swift in Sources */,
 				289950452C11DE87001BBB4B /* VisionViewModel.swift in Sources */,
-				28F8BB0E2C0FE45400B29F1E /* AVCaptureDevice+FrameRate.swift in Sources */,
 				28F0CD322C1A0B5800D5C41E /* ViewController.swift in Sources */,
 				289950432C11DE33001BBB4B /* DetailView.swift in Sources */,
-				28F8BB0F2C0FE45400B29F1E /* VideoCapture.swift in Sources */,
 				289950392C11D31A001BBB4B /* VisionObjectRecognitionView.swift in Sources */,
 				28F0CD332C1A0B5800D5C41E /* VisionObjectRecognitionViewController.swift in Sources */,
 			);
